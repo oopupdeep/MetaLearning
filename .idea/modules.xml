@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MetaLearning.iml" filepath="$PROJECT_DIR$/.idea/MetaLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-base/metalearning-base.iml" filepath="$PROJECT_DIR$/metalearning-base/metalearning-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-api/metalearning-content-api.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-api/metalearning-content-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-model/metalearning-content-model.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-model/metalearning-content-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-service/metalearning-content-service.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-service/metalearning-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-generator/metalearning-generator.iml" filepath="$PROJECT_DIR$/metalearning-generator/metalearning-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-parent/metalearning-parent.iml" filepath="$PROJECT_DIR$/metalearning-parent/metalearning-parent.iml" />
     </modules>
   </component>
 </project>

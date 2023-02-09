@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
+<!--        <version>3.0.2</version>-->
+<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+        <artifactId>metalearning-content</artifactId>
+        <groupId>com.metalearning</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>metalearning-content-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>metalearning-content-service</name>
+    <description>metalearning-content-service</description>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.metalearning</groupId>
+            <artifactId>metalearning-content-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
