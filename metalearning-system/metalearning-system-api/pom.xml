@@ -2,46 +2,62 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-<!--    <parent>-->
-<!--        <groupId>org.springframework.boot</groupId>-->
-<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--        <version>3.0.2</version>-->
-<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
-<!--        -->
-<!--    </parent>-->
     <parent>
-        <artifactId>metalearning-content</artifactId>
+        <artifactId>metalearning-system</artifactId>
         <groupId>com.metalearning</groupId>
         <version>0.0.1-SNAPSHOT</version>
-<!--        <relativePath>../../metalearning-content</relativePath>-->
     </parent>
-
-    <artifactId>metalearning-content-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>metalearning-content-api</name>
-    <description>metalearning-content-api</description>
+    <artifactId>metalearning-system-api</artifactId>
+    <name>metalearning-system-api</name>
+    <description>metalearning-system-api</description>
 
     <dependencies>
         <dependency>
             <groupId>com.metalearning</groupId>
-            <artifactId>metalearning-content-model</artifactId>
+            <artifactId>metalearning-system-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.metalearning</groupId>
-            <artifactId>metalearning-content-service</artifactId>
+            <artifactId>metalearning-system-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <!--cloud的基础环境包-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-context</artifactId>
         </dependency>
+
         <!-- Spring Boot 的 Spring Web MVC 集成 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <!-- Spring Boot 对 LocalDateTime
+          boot-starter-web自动引入
+          -->
+       <!-- <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-parameter-names</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jdk8</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+        </dependency>-->
+
+        <!--<dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>-->
         <!-- 排除 Spring Boot 依赖的日志包冲突 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,36 +69,23 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
+
         <!-- Spring Boot 集成 log4j2 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
-            <!--            <exclusions>-->
-            <!--                <exclusion>-->
-            <!--                    <groupId>org.apache.logging.log4j</groupId>-->
-            <!--                    <artifactId>log4j-slf4j-impl</artifactId>-->
-            <!--                </exclusion>-->
-            <!--            </exclusions>-->
-            <version>2.1.0.RELEASE</version>
         </dependency>
+
         <!-- Spring Boot 集成 swagger -->
         <dependency>
             <groupId>com.spring4all</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>
-            <version>1.9.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
+
 
     </dependencies>
 

@@ -10,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-service/metalearning-content-service.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-service/metalearning-content-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-generator/metalearning-generator.iml" filepath="$PROJECT_DIR$/metalearning-generator/metalearning-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-parent/metalearning-parent.iml" filepath="$PROJECT_DIR$/metalearning-parent/metalearning-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system-api/metalearning-system-api.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system-api/metalearning-system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system-model/metalearning-system-model.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system-model/metalearning-system-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system-service/metalearning-system-service.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system-service/metalearning-system-service.iml" />
     </modules>
   </component>
 </project>

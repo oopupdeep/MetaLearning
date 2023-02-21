@@ -3,26 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-<!--        <groupId>org.springframework.boot</groupId>-->
-<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--        <version>3.0.2</version>-->
-<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+        <artifactId>metalearning-system</artifactId>
         <groupId>com.metalearning</groupId>
-        <artifactId>metalearning-content</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>metalearning-content-service</artifactId>
-<!--    <version>0.0.1-SNAPSHOT</version>-->
-<!--    <name>metalearning-content-service</name>-->
-<!--    <description>metalearning-content-service</description>-->
-<!--    <packaging>pom</packaging>-->
-<!--    <properties>-->
-<!--        <java.version>1.8</java.version>-->
-<!--    </properties>-->
+    <artifactId>metalearning-system-service</artifactId>
+    <name>metalearning-system-service</name>
+    <description>metalearning-system-service</description>
+
     <dependencies>
         <dependency>
             <groupId>com.metalearning</groupId>
-            <artifactId>metalearning-content-model</artifactId>
+            <artifactId>metalearning-system-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
@@ -60,19 +52,9 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
-            <version>2.1.0.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
+
 
     </dependencies>
-
-
 
 </project>

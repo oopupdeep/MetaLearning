@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: system-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/metalearning_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: mysql
+  cloud:
+    nacos:
+      server-addr: 47.97.27.160:8848
+      discovery:
+        namespace: dev
+        group: metalearning-project
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+
+
