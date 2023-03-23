@@ -1,6 +1,6 @@
-package com.xuecheng.search.service;
+package com.metalearning.search.service;
 
-import com.xuecheng.search.po.CourseIndex;
+import com.metalearning.search.po.CourseIndex;
 
 /**
  * @author Mr.M

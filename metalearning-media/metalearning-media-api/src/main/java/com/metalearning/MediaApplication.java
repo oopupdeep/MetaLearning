@@ -1,4 +1,4 @@
-package com.xuecheng;
+package com.metalearning;
 
 
 import com.spring4all.swagger.EnableSwagger2Doc;

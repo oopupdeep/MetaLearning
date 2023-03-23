@@ -8,8 +8,23 @@
       <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-api/metalearning-content-api.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-api/metalearning-content-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-model/metalearning-content-model.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-model/metalearning-content-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-content/metalearning-content-service/metalearning-content-service.iml" filepath="$PROJECT_DIR$/metalearning-content/metalearning-content-service/metalearning-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-gateway/metalearning-gateway.iml" filepath="$PROJECT_DIR$/metalearning-gateway/metalearning-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-generator/metalearning-generator.iml" filepath="$PROJECT_DIR$/metalearning-generator/metalearning-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-learning/metalearning-learning.iml" filepath="$PROJECT_DIR$/metalearning-learning/metalearning-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-learning/metalearning-learning-api/metalearning-learning-api.iml" filepath="$PROJECT_DIR$/metalearning-learning/metalearning-learning-api/metalearning-learning-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-learning/metalearning-learning-model/metalearning-learning-model.iml" filepath="$PROJECT_DIR$/metalearning-learning/metalearning-learning-model/metalearning-learning-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-learning/metalearning-learning-service/metalearning-learning-service.iml" filepath="$PROJECT_DIR$/metalearning-learning/metalearning-learning-service/metalearning-learning-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-media/metalearning-media.iml" filepath="$PROJECT_DIR$/metalearning-media/metalearning-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-media/metalearning-media-api/metalearning-media-api.iml" filepath="$PROJECT_DIR$/metalearning-media/metalearning-media-api/metalearning-media-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-media/metalearning-media-model/metalearning-media-model.iml" filepath="$PROJECT_DIR$/metalearning-media/metalearning-media-model/metalearning-media-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-media/metalearning-media-service/metalearning-media-service.iml" filepath="$PROJECT_DIR$/metalearning-media/metalearning-media-service/metalearning-media-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-message-sdk/metalearning-message-sdk.iml" filepath="$PROJECT_DIR$/metalearning-message-sdk/metalearning-message-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-orders/metalearning-orders.iml" filepath="$PROJECT_DIR$/metalearning-orders/metalearning-orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-orders/metalearning-orders-api/metalearning-orders-api.iml" filepath="$PROJECT_DIR$/metalearning-orders/metalearning-orders-api/metalearning-orders-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-orders/metalearning-orders-model/metalearning-orders-model.iml" filepath="$PROJECT_DIR$/metalearning-orders/metalearning-orders-model/metalearning-orders-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-orders/metalearning-orders-service/metalearning-orders-service.iml" filepath="$PROJECT_DIR$/metalearning-orders/metalearning-orders-service/metalearning-orders-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-parent/metalearning-parent.iml" filepath="$PROJECT_DIR$/metalearning-parent/metalearning-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metalearning-search/metalearning-search.iml" filepath="$PROJECT_DIR$/metalearning-search/metalearning-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system-api/metalearning-system-api.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system-api/metalearning-system-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/metalearning-system/metalearning-system-model/metalearning-system-model.iml" filepath="$PROJECT_DIR$/metalearning-system/metalearning-system-model/metalearning-system-model.iml" />

@@ -1,11 +1,11 @@
-package com.xuecheng.orders.api;
+package com.metalearning.orders.api;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.alipay.api.request.AlipayTradeWapPayRequest;
-import com.xuecheng.orders.config.AlipayConfig;
+import com.metalearning.orders.config.AlipayConfig;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

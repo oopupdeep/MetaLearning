@@ -1,18 +1,18 @@
-package com.xuecheng.orders.api;
+package com.metalearning.orders.api;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.alipay.api.request.AlipayTradeWapPayRequest;
-import com.xuecheng.base.exception.XueChengPlusException;
-import com.xuecheng.orders.config.AlipayConfig;
-import com.xuecheng.orders.model.dto.AddOrderDto;
-import com.xuecheng.orders.model.dto.PayRecordDto;
-import com.xuecheng.orders.model.dto.PayStatusDto;
-import com.xuecheng.orders.model.po.XcPayRecord;
-import com.xuecheng.orders.service.OrderService;
-import com.xuecheng.orders.util.SecurityUtil;
+import com.metalearning.base.exception.MetalearningException;
+import com.metalearning.orders.config.AlipayConfig;
+import com.metalearning.orders.model.dto.AddOrderDto;
+import com.metalearning.orders.model.dto.PayRecordDto;
+import com.metalearning.orders.model.dto.PayStatusDto;
+import com.metalearning.orders.model.po.XcPayRecord;
+import com.metalearning.orders.service.OrderService;
+import com.metalearning.orders.util.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -70,7 +70,7 @@ public class OrderController {
          //校验payNo支付记录交易号是否存在
         XcPayRecord payRecord = orderService.getPayRecordByPayno(payNo);
         if(payRecord==null){
-            XueChengPlusException.cast("支付记录交易号不存在");
+            MetalearningException.cast("支付记录交易号不存在");
         }
         AlipayClient client = new DefaultAlipayClient(AlipayConfig.URL, APP_ID, APP_PRIVATE_KEY, AlipayConfig.FORMAT, AlipayConfig.CHARSET, ALIPAY_PUBLIC_KEY, AlipayConfig.SIGNTYPE);//获得初始化的AlipayClient
         AlipayTradeWapPayRequest alipayRequest = new AlipayTradeWapPayRequest();//创建API对应的request

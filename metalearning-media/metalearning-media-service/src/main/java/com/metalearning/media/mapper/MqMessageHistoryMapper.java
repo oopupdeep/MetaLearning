@@ -2,7 +2,7 @@ package com.metalearning.media.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.xuecheng.media.model.po.MqMessageHistory;
+import com.metalearning.media.model.po.MqMessageHistory;
 
 /**
  * <p>

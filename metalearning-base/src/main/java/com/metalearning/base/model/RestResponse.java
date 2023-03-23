@@ -1,4 +1,4 @@
-package com.xuecheng.base.model;
+package com.metalearning.base.model;
 
 import lombok.Data;
 import lombok.ToString;

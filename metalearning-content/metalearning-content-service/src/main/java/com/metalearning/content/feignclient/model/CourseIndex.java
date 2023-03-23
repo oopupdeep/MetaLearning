@@ -1,4 +1,4 @@
-package com.xuecheng.content.feignclient.model;
+package com.metalearning.content.feignclient.model;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.fasterxml.jackson.annotation.JsonFormat;

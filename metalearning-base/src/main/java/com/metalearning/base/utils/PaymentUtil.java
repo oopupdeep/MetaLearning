@@ -1,4 +1,4 @@
-package com.xuecheng.base.utils;
+package com.metalearning.base.utils;
 
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.StringUtils;

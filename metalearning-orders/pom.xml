@@ -3,17 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>xuecheng-plus-parent</artifactId>
-        <groupId>com.xuecheng</groupId>
+        <artifactId>metalearning-parent</artifactId>
+        <groupId>com.metalearning</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../xuecheng-plus-parent</relativePath>
+        <relativePath>../metalearning-parent</relativePath>
     </parent>
-    <artifactId>xuecheng-plus-orders</artifactId>
+    <artifactId>metalearning-orders</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>xuecheng-plus-orders-api</module>
-        <module>xuecheng-plus-orders-service</module>
-        <module>xuecheng-plus-orders-model</module>
+        <module>metalearning-orders-api</module>
+        <module>metalearning-orders-service</module>
+        <module>metalearning-orders-model</module>
     </modules>
 
 

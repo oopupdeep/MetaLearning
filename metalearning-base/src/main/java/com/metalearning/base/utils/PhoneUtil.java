@@ -1,4 +1,4 @@
-package com.xuecheng.base.utils;
+package com.metalearning.base.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

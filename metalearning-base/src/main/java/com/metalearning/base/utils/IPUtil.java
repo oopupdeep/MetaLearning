@@ -1,4 +1,4 @@
-package com.xuecheng.base.utils;
+package com.metalearning.base.utils;
 
 import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;

@@ -1,7 +1,7 @@
 package com.metalearning.media.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.xuecheng.media.model.po.MediaFiles;
+import com.metalearning.media.model.po.MediaFiles;
 
 /**
  * <p>

@@ -1,4 +1,4 @@
-package com.xuecheng.orders.config;
+package com.metalearning.orders.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

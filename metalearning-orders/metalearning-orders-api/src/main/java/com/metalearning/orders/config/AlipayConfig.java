@@ -1,4 +1,4 @@
-package com.xuecheng.orders.config;
+package com.metalearning.orders.config;
  /**
  * @description 支付宝配置参数
  * @author Mr.M

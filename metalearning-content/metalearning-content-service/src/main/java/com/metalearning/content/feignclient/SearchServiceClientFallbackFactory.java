@@ -1,10 +1,9 @@
-package com.xuecheng.content.feignclient;
+package com.metalearning.content.feignclient;
 
-import com.xuecheng.content.feignclient.model.CourseIndex;
+import com.metalearning.content.feignclient.model.CourseIndex;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @author Mr.M

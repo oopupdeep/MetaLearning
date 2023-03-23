@@ -1,6 +1,6 @@
-package com.xuecheng.search.dto;
+package com.metalearning.search.dto;
 
-import com.xuecheng.base.model.PageResult;
+import com.metalearning.base.model.PageResult;
 import lombok.Data;
 import lombok.ToString;
 

@@ -1,4 +1,4 @@
-package com.xuecheng.messagesdk.config;
+package com.metalearning.messagesdk.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.autoconfigure.ConfigurationCustomizer;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  * </p>
  */
 @Configuration("messagesdk_mpconfig")
-@MapperScan("com.xuecheng.messagesdk.mapper")
+@MapperScan("com.metalearning.messagesdk.mapper")
 public class MybatisPlusConfig {
 
 

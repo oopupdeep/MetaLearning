@@ -1,4 +1,4 @@
-package com.xuecheng.search.dto;
+package com.metalearning.search.dto;
 
 import lombok.Data;
 import lombok.ToString;

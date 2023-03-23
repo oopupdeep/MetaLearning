@@ -1,7 +1,7 @@
-package com.xuecheng.content.model.dto;
+package com.metalearning.content.model.dto;
 
-import com.xuecheng.content.model.po.Teachplan;
-import com.xuecheng.content.model.po.TeachplanMedia;
+import com.metalearning.content.model.po.Teachplan;
+import com.metalearning.content.model.po.TeachplanMedia;
 import lombok.Data;
 
 import java.util.List;

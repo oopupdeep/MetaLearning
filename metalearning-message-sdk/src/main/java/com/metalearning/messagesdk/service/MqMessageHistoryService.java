@@ -1,7 +1,7 @@
-package com.xuecheng.messagesdk.service;
+package com.metalearning.messagesdk.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xuecheng.messagesdk.model.po.MqMessageHistory;
+import com.metalearning.messagesdk.model.po.MqMessageHistory;
 
 /**
  * <p>

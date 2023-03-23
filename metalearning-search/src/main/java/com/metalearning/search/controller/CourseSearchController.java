@@ -1,11 +1,11 @@
-package com.xuecheng.search.controller;
+package com.metalearning.search.controller;
 
-import com.xuecheng.base.model.PageParams;
-import com.xuecheng.base.model.PageResult;
-import com.xuecheng.search.dto.SearchCourseParamDto;
-import com.xuecheng.search.dto.SearchPageResultDto;
-import com.xuecheng.search.po.CourseIndex;
-import com.xuecheng.search.service.CourseSearchService;
+import com.metalearning.base.model.PageParams;
+import com.metalearning.base.model.PageResult;
+import com.metalearning.search.dto.SearchCourseParamDto;
+import com.metalearning.search.dto.SearchPageResultDto;
+import com.metalearning.search.po.CourseIndex;
+import com.metalearning.search.service.CourseSearchService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

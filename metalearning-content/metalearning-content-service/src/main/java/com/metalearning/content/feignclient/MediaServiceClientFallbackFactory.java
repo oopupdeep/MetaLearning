@@ -1,4 +1,4 @@
-package com.xuecheng.content.feignclient;
+package com.metalearning.content.feignclient;
 
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;

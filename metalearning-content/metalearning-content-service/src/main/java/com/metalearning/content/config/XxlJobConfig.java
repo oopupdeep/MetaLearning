@@ -1,4 +1,4 @@
-package com.xuecheng.content.config;
+package com.metalearning.content.config;
 
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import org.slf4j.Logger;

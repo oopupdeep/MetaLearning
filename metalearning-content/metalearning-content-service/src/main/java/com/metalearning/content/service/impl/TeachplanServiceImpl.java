@@ -1,15 +1,15 @@
-package com.xuecheng.content.service.impl;
+package com.metalearning.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.xuecheng.base.exception.XueChengPlusException;
-import com.xuecheng.content.mapper.TeachplanMapper;
-import com.xuecheng.content.mapper.TeachplanMediaMapper;
-import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
-import com.xuecheng.content.model.dto.SaveTeachplanDto;
-import com.xuecheng.content.model.dto.TeachplanDto;
-import com.xuecheng.content.model.po.Teachplan;
-import com.xuecheng.content.model.po.TeachplanMedia;
-import com.xuecheng.content.service.TeachplanService;
+import com.metalearning.base.exception.MetalearningException;
+import com.metalearning.content.mapper.TeachplanMapper;
+import com.metalearning.content.mapper.TeachplanMediaMapper;
+import com.metalearning.content.model.dto.BindTeachplanMediaDto;
+import com.metalearning.content.model.dto.SaveTeachplanDto;
+import com.metalearning.content.model.dto.TeachplanDto;
+import com.metalearning.content.model.po.Teachplan;
+import com.metalearning.content.model.po.TeachplanMedia;
+import com.metalearning.content.service.TeachplanService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -77,12 +77,12 @@ public class TeachplanServiceImpl implements TeachplanService {
         //约束校验
         //教学计划不存在无法绑定
         if(teachplan == null){
-            XueChengPlusException.cast("教学计划不存在");
+            MetalearningException.cast("教学计划不存在");
         }
         //只有二级目录才可以绑定视频
         Integer grade = teachplan.getGrade();
         if(grade != 2){
-            XueChengPlusException.cast("只有二级目录才可以绑定视频");
+            MetalearningException.cast("只有二级目录才可以绑定视频");
         }
 
 

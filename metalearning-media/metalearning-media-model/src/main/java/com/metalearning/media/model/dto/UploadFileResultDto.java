@@ -1,6 +1,6 @@
-package com.xuecheng.media.model.dto;
+package com.metalearning.media.model.dto;
 
-import com.xuecheng.media.model.po.MediaFiles;
+import com.metalearning.media.model.po.MediaFiles;
 import lombok.Data;
 
 /**

@@ -3,18 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>xuecheng-plus-media</artifactId>
-        <groupId>com.xuecheng</groupId>
+        <artifactId>metalearning-media</artifactId>
+        <groupId>com.metalearning</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>xuecheng-plus-media-model</artifactId>
-    <name>xuecheng-plus-media-model</name>
-    <description>xuecheng-plus-media-model</description>
+    <artifactId>metalearning-media-model</artifactId>
+    <name>metalearning-media-model</name>
+    <description>metalearning-media-model</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.xuecheng</groupId>
-            <artifactId>xuecheng-plus-base</artifactId>
+            <groupId>com.metalearning</groupId>
+            <artifactId>metalearning-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!--存在mybatisplus注解添加相关注解保证不报错-->

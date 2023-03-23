@@ -1,7 +1,7 @@
 /**
  * @(#)JsonUtil.java 2014-2-23 下午5:44:19
  */
-package com.xuecheng.base.utils;
+package com.metalearning.base.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;

@@ -1,7 +1,7 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
+#server:
+#  servlet:
+#    context-path: /content
+#  port: 63040
 #微服务配置
 spring:
   application:
@@ -17,6 +17,22 @@ spring:
         group: metalearning-project
         file-extension: yaml
         refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: metalearning-project
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: metalearning-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: metalearning-common
+            refresh: true
+          - data-id: freemarker-config-${spring.profiles.active}.yaml
+            group: metalearning-common
+          - data-id: redis-${spring.profiles.active}.yaml
+            group: metalearning-common
+            refresh: true
   profiles:
     active: dev
 # 日志文件配置路径

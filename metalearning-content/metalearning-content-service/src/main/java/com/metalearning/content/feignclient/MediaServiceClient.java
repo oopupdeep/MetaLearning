@@ -1,6 +1,6 @@
-package com.xuecheng.content.feignclient;
+package com.metalearning.content.feignclient;
 
-import com.xuecheng.content.config.MultipartSupportConfig;
+import com.metalearning.content.config.MultipartSupportConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

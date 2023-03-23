@@ -1,4 +1,4 @@
-package com.xuecheng.orders.model.dto;
+package com.metalearning.orders.model.dto;
 
 import lombok.Data;
 

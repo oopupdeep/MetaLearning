@@ -1,4 +1,4 @@
-package com.xuecheng.base.utils;
+package com.metalearning.base.utils;
 
 import javax.crypto.Cipher;
 import java.io.ByteArrayInputStream;

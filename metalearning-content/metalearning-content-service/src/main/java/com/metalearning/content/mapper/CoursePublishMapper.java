@@ -1,8 +1,7 @@
 package com.metalearning.content.mapper;
 
-import com.metalearning.content.model.po.CoursePublish;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.springframework.stereotype.Repository;
+import com.metalearning.content.model.po.CoursePublish;
 
 /**
  * <p>

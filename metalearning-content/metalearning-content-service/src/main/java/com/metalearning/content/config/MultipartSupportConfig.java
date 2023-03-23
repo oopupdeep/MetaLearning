@@ -1,4 +1,4 @@
-package com.xuecheng.content.config;
+package com.metalearning.content.config;
 
 import feign.codec.Encoder;
 import feign.form.spring.SpringFormEncoder;

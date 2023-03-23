@@ -1,4 +1,4 @@
-package com.xuecheng.orders.util;
+package com.metalearning.orders.util;
 
 import com.alibaba.fastjson.JSON;
 import lombok.Data;

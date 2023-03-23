@@ -1,7 +1,7 @@
-package com.xuecheng.messagesdk.service;
+package com.metalearning.messagesdk.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xuecheng.messagesdk.model.po.MqMessage;
+import com.metalearning.messagesdk.model.po.MqMessage;
 
 import java.util.List;
 
@@ -31,7 +31,7 @@ public interface MqMessageService extends IService<MqMessage> {
      * @param businessKey1 业务id
      * @param businessKey2 业务id
      * @param businessKey3 业务id
-     * @return com.xuecheng.messagesdk.model.po.MqMessage 消息内容
+     * @return com.metalearning.messagesdk.model.po.MqMessage 消息内容
      * @author Mr.M
      * @date 2022/9/23 13:45
     */

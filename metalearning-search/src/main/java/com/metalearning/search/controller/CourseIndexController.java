@@ -1,8 +1,8 @@
-package com.xuecheng.search.controller;
+package com.metalearning.search.controller;
 
-import com.xuecheng.base.exception.XueChengPlusException;
-import com.xuecheng.search.po.CourseIndex;
-import com.xuecheng.search.service.IndexService;
+import com.metalearning.base.exception.MetalearningException;
+import com.metalearning.search.po.CourseIndex;
+import com.metalearning.search.service.IndexService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,11 +35,11 @@ public class CourseIndexController {
 
         Long id = courseIndex.getId();
         if(id==null){
-            XueChengPlusException.cast("课程id为空");
+            MetalearningException.cast("课程id为空");
         }
         Boolean result = indexService.addCourseIndex(courseIndexStore, String.valueOf(id), courseIndex);
         if(!result){
-            XueChengPlusException.cast("添加课程索引失败");
+            MetalearningException.cast("添加课程索引失败");
         }
         return result;
 

@@ -1,7 +1,7 @@
-package com.xuecheng.search;
+package com.metalearning.search;
 
-import com.xuecheng.search.po.CourseIndex;
-import com.xuecheng.search.service.IndexService;
+import com.metalearning.search.po.CourseIndex;
+import com.metalearning.search.service.IndexService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -41,7 +41,7 @@ public class CourseIndexSearchTest {
    courseIndex.setStName("Java语言");
    courseIndex.setGrade("20202");
    courseIndex.setCreateDate(LocalDateTime.now());
-   courseIndex.setPic("http://file.51xuecheng.cn/mediafiles/ssss.jpg");
+   courseIndex.setPic("http://file.51metalearning.cn/mediafiles/ssss.jpg");
    courseIndex.setPrice(100f);
    courseIndex.setOriginalPrice(200f);
    courseIndex.setRemark("没有备注");
@@ -70,7 +70,7 @@ public class CourseIndexSearchTest {
    courseIndex.setStName("Java语言");
    courseIndex.setGrade("20202");
    courseIndex.setCreateDate(LocalDateTime.now());
-   courseIndex.setPic("http://file.51xuecheng.cn/mediafiles/ssss.jpg");
+   courseIndex.setPic("http://file.51metalearning.cn/mediafiles/ssss.jpg");
    courseIndex.setPrice(100f);
    courseIndex.setOriginalPrice(200f);
    courseIndex.setRemark("没有备注");

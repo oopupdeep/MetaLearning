@@ -1,8 +1,8 @@
-package com.xuecheng.messagesdk;
+package com.metalearning.messagesdk;
 
-import com.xuecheng.messagesdk.model.po.MqMessage;
-import com.xuecheng.messagesdk.service.MessageProcessAbstract;
-import com.xuecheng.messagesdk.service.MqMessageService;
+import com.metalearning.messagesdk.model.po.MqMessage;
+import com.metalearning.messagesdk.service.MessageProcessAbstract;
+import com.metalearning.messagesdk.service.MqMessageService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

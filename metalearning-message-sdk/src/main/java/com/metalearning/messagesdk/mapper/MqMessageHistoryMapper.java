@@ -1,7 +1,7 @@
-package com.xuecheng.messagesdk.mapper;
+package com.metalearning.messagesdk.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.xuecheng.messagesdk.model.po.MqMessageHistory;
+import com.metalearning.messagesdk.model.po.MqMessageHistory;
 
 /**
  * <p>

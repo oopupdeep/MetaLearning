@@ -1,12 +1,12 @@
-package com.xuecheng.messagesdk.service.impl;
+package com.metalearning.messagesdk.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xuecheng.messagesdk.mapper.MqMessageHistoryMapper;
-import com.xuecheng.messagesdk.mapper.MqMessageMapper;
-import com.xuecheng.messagesdk.model.po.MqMessage;
-import com.xuecheng.messagesdk.model.po.MqMessageHistory;
-import com.xuecheng.messagesdk.service.MqMessageService;
+import com.metalearning.messagesdk.mapper.MqMessageHistoryMapper;
+import com.metalearning.messagesdk.mapper.MqMessageMapper;
+import com.metalearning.messagesdk.model.po.MqMessage;
+import com.metalearning.messagesdk.model.po.MqMessageHistory;
+import com.metalearning.messagesdk.service.MqMessageService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

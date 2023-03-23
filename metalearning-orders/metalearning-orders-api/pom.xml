@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>xuecheng-plus-orders</artifactId>
-        <groupId>com.xuecheng</groupId>
+        <artifactId>metalearning-orders</artifactId>
+        <groupId>com.metalearning</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>xuecheng-plus-orders-api</artifactId>
+    <artifactId>metalearning-orders-api</artifactId>
 
     <dependencies>
         <dependency>
@@ -19,13 +19,13 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.xuecheng</groupId>
-            <artifactId>xuecheng-plus-orders-model</artifactId>
+            <groupId>com.metalearning</groupId>
+            <artifactId>metalearning-orders-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.xuecheng</groupId>
-            <artifactId>xuecheng-plus-orders-service</artifactId>
+            <groupId>com.metalearning</groupId>
+            <artifactId>metalearning-orders-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!--cloud的基础环境包-->

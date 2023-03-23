@@ -1,4 +1,4 @@
-package com.xuecheng.orders.model.po;
+package com.metalearning.orders.model.po;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;

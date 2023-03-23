@@ -18,8 +18,8 @@ public class MinIOTest {
 
     static MinioClient minioClient =
             MinioClient.builder()
-                    .endpoint("http://192.168.101.65:9000")
-                    .credentials("minioadmin", "minioadmin")
+                    .endpoint("http://47.97.27.160:9000")
+                    .credentials("admin", "admin123")
                     .build();
 
 
@@ -29,13 +29,14 @@ public class MinIOTest {
         try {
             UploadObjectArgs uploadObjectArgs = UploadObjectArgs.builder()
                     .bucket("testbucket")
-                    .object("1.mp4")//同一个桶内对象名不能重复
-                    .filename("D:\\develop\\upload\\1.mp4")
+                    .object("1.jpg")//同一个桶内对象名不能重复
+                    .filename("G:\\develop\\updload\\1.jpg")
                     .build();
             //上传
             minioClient.uploadObject(uploadObjectArgs);
             System.out.println("上传成功了");
         } catch (Exception e) {
+            System.out.println(e.getMessage());
             System.out.println("上传失败");
         }
 

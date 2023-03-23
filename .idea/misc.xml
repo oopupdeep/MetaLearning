@@ -15,6 +15,18 @@
         <option value="$PROJECT_DIR$/metalearning-generator/pom.xml" />
         <option value="$PROJECT_DIR$/xuecheng-plus-system/pom.xml" />
         <option value="$PROJECT_DIR$/metalearning-system/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-media/metalearning-media-api/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-media/metalearning-media-model/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-media/metalearning-media-service/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-media/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-search/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-message-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-orders/metalearning-orders-service/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-orders/metalearning-orders-model/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-orders/metalearning-orders-api/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-orders/pom.xml" />
+        <option value="$PROJECT_DIR$/metalearning-learning/pom.xml" />
       </list>
     </option>
   </component>

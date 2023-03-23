@@ -1,6 +1,6 @@
-package com.xuecheng.orders.model.dto;
+package com.metalearning.orders.model.dto;
 
-import com.xuecheng.orders.model.po.XcOrders;
+import com.metalearning.orders.model.po.XcOrders;
 import lombok.Data;
 import lombok.ToString;
 

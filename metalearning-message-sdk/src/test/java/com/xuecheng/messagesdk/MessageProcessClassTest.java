@@ -1,4 +1,4 @@
-package com.xuecheng.messagesdk;
+package com.metalearning.messagesdk;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 public class MessageProcessClassTest {
 
     @Autowired
-    MessageProcessClass messageProcessClass;
+    com.metalearning.messagesdk.MessageProcessClass messageProcessClass;
 
     @Test
     public void test() throws InterruptedException {

@@ -1,4 +1,4 @@
-package com.xuecheng.search.config;
+package com.metalearning.search.config;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
