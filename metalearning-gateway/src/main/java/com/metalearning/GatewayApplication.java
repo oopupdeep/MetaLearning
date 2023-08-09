@@ -1,13 +1,13 @@
-package com.metalearning.metalearninggateway;
+package com.metalearning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MetalearningGatewayApplication {
+public class GatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MetalearningGatewayApplication.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
 
 }

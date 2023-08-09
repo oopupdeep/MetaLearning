@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FilterInputStream;
+import java.util.HashMap;
 
 /**
  * @author Mr.M
@@ -18,8 +19,8 @@ public class MinIOTest {
 
     static MinioClient minioClient =
             MinioClient.builder()
-                    .endpoint("http://47.97.27.160:9000")
-                    .credentials("admin", "admin123")
+                    .endpoint("http://192.168.101.65:9000")
+                    .credentials("minioadmin", "minioadmin")
                     .build();
 
 
@@ -39,8 +40,6 @@ public class MinIOTest {
             System.out.println(e.getMessage());
             System.out.println("上传失败");
         }
-
-
     }
     //指定桶内的子目录
     @Test
